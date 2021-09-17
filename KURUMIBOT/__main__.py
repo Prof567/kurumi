@@ -73,7 +73,7 @@ TOKISAKI_IMG = "https://telegra.ph/file/99bbcc3b8564804dc2ab0.jpg"
 KURUMI_IMG = "https://telegra.ph/file/e1d87ec2bdac4e3cfe0a4.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Click here to donate in [Paypal](https://www.paypal.me/zameeljaz)"""
+Click here to donate in ib (https://t.me/GodKiller_mArk2)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
