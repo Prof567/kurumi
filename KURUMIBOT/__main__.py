@@ -198,21 +198,21 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🚨 Support 🚨",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
-                         InlineKeyboardButton(
-                             text="My luv ❤",
-                             url="https://t.me/A_lonelyPerson")
-                    ], 
+                             url=f"https://t.me/{daisy_johnson_support}"),
+                    ],
                      [
                          InlineKeyboardButton(
                              text="🔔 Updates of Daisy Johnson 🔔",
-                             url="https://t.me/hiroiscool")
+                             url="https://t.me/daisy_channel01")
                     ], 
                      [
                          InlineKeyboardButton(
                              text="📳 Anime Chat Group 📳",
                              url="https://t.me/WeebXWorld")
                     ]]))
+                   
+             
+                         
                      
                     
                   
