@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 Hi {}, my name is {}! 
-I am an Anime themed group management bot. I will use my angel Zafkiel and protect your group. You can find my list of available commands with /help.
+I am an group management bot. I will use my power and protect your group. You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = ""
@@ -69,8 +69,8 @@ For all command use / [or](https://telegra.ph/file/b1b545eb4877b012eac82.png) !
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
-TOKISAKI_IMG = "https://telegra.ph/Daisy-johnson-09-17"
-KURUMI_IMG = "https://telegra.ph/Daisy-johnson-09-17"
+TOKISAKI_IMG = ""
+KURUMI_IMG = ""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Click here to donate in ib (https://t.me/GodKiller_mArk2)"""
@@ -203,11 +203,11 @@ def start(update: Update, context: CallbackContext):
                      [
                         InlineKeyboardButton(
                              text="🔔 Updates of Daisy Johnson 🔔",
-                             url="https://t.me/daisy_channel01")
+                             url="https://t.me/{daisy_channel01}")
 
     else:
         update.effective_message.reply_video(
-                KURUMI_IMG, caption=f"Zaphkiel!!!!\nI'm here with my Zaphkiel")
+                 caption=f"I AM BACK ONLINE!!")
 
 # for test purposes
 def error_callback(update: Update, context: CallbackContext):
