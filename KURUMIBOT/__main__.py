@@ -204,19 +204,7 @@ def start(update: Update, context: CallbackContext):
                          InlineKeyboardButton(
                              text="🔔 Updates of Daisy Johnson 🔔",
                              url="https://t.me/daisy_channel01")
-                    ], 
-                     [
-                         InlineKeyboardButton(
-                             text="📳 Anime Chat Group 📳",
-                             url="https://t.me/WeebXWorld")
-                    ]]))
-                   
-             
-                         
-                     
-                    
-                  
-                    
+
     else:
         update.effective_message.reply_video(
                 KURUMI_IMG, caption=f"Zaphkiel!!!!\nI'm here with my Zaphkiel")
