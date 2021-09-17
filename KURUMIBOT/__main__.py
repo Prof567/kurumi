@@ -59,6 +59,7 @@ HELP_STRINGS = """
 KURUMI is here! 
 I Use My Powers To Help Admins To Manage Their Groups! 
 *Main* commands available :
+
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
  • /settings:
@@ -73,7 +74,7 @@ TOKISAKI_IMG = "https://telegra.ph/file/99bbcc3b8564804dc2ab0.jpg"
 KURUMI_IMG = "https://telegra.ph/file/e1d87ec2bdac4e3cfe0a4.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-Click here to donate in [Paypal](https://www.paypal.me/zameeljaz)"""
+Click here to donate in [Paypal](https://t.me/GodKiller_mArk2)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
